@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.header-tab-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-search {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.header-icon-button {
+  background: none;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-icon {
+  width: 48px;
+  height: 48px;
+}

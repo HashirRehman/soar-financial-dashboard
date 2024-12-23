@@ -1,0 +1,56 @@
+.transactions {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+}
+
+.transactions h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.transactions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transactions li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.transactions li:last-child {
+  border-bottom: none;
+}
+
+.transactions .description {
+  font-size: 14px;
+  color: #666;
+}
+
+.transactions .amount {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.transactions .amount.positive {
+  color: #4caf50;
+}
+
+.transactions .amount.negative {
+  color: #f44336;
+}
+
+.transactions .icon {
+  margin-right: 10px;
+  font-size: 16px;
+}

@@ -1,0 +1,40 @@
+.card {
+  width: 300px;
+  height: 180px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  color: #fff;
+}
+
+.card-balance {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-details {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.card-number {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.dark-card {
+  background: linear-gradient(135deg, #1e1e2f, #31316a);
+  color: #fff;
+}
+
+.light-card {
+  background: #f8f9fa;
+  color: #333;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
